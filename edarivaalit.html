@@ -12,10 +12,18 @@
     src: url(fonts/abaddon.TTF) format("truetype");
 }
 </style>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v2.8&appId=610961729078656";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 </head>
 
 <body style="background:#1F1E1C;font-family: 'custom_font', Verdana, Tahoma;">
+<div id="fb-root"></div>
 
 <div style="overflow:auto; margin: auto;padding:30px;">
 <img src="images/LOGO.jpeg" width="100px;" height="100px;" style="float:left;"/>
@@ -29,9 +37,11 @@
 
 
 <div style="margin:30px">
-<img src="images/amari.JPG" width="70%"/>
-</br>
+<img src="images/amari.JPG" width="70%" style="margin-bottom:50px;"/>
+
 <img src="images/NISTI2.JPG" width="70%" />
 </div>
+
+<div class="fb-page" data-href="https://www.facebook.com/sitoutumatonvasemmisto/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/sitoutumatonvasemmisto/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sitoutumatonvasemmisto/">Sitoutumaton vasemmisto</a></blockquote></div>
 
 </html>
