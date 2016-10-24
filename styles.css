@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: "custom_font";
+    src: url(fonts/abaddon.TTF) format("truetype");
+}
+
+/*@media (max-width: 600px) {
+  .amari_image {
+    width:30%;
+  }
+}
+
+@media (max-width: 9000px) {
+  .amari_image {
+    width:70%;
+  }
+}*/
