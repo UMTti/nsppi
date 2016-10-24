@@ -1,2 +1,2 @@
 # nsppi
-Website for nykysuomalainen pakanapappi
+Website for http://nykysuomalainenpakanapappi.com/
