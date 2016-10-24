@@ -4,14 +4,29 @@
     src: url(fonts/abaddon.TTF) format("truetype");
 }
 
-/*@media (max-width: 600px) {
+@media all and (max-width: 417px) and (min-width: 0px){
   .amari_image {
-    width:30%;
+    width:80%;
+  }
+
+  .sitvas{
+  	width:80%;
   }
 }
 
-@media (max-width: 9000px) {
+@media all and (max-width: 900px) and (min-width: 418px){
   .amari_image {
     width:70%;
   }
-}*/
+
+  .sitvas{
+  	width:70%;
+  }
+}
+
+@media all and (max-width: 9000px) and (min-width: 700px){
+  .amari_image {
+    width:70%;
+  }
+
+}
